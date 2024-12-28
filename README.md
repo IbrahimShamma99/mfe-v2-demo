@@ -24,6 +24,6 @@ https://dev.to/ibrahimshamma99/rspack-with-module-federation-v2-is-the-future-3g
 - [x] Setup Module Federation
 - [x] Setup Rspack
 - [x] Write the blog
-- [ ] Add Vue App in the mix
+- [x] Add Vue App in the mix
 - [ ] Share zustand store between react apps
 - [ ] Add ShadCN package layer
