@@ -4,6 +4,7 @@
 
 ## TODO
 
+- [x] Setup pnpm
 - [x] Setup React apps
 - [x] Setup Module Federation
 - [x] Setup Rspack
