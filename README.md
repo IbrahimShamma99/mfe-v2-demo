@@ -10,3 +10,5 @@
 - [x] Setup Rspack
 - [ ] Write the blog
 - [ ] Add Vue App in the mix
+- [ ] Share zustand store between react apps
+- [ ] Add ShadCN package layer
