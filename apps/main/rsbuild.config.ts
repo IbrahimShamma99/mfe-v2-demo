@@ -13,6 +13,7 @@ export default defineConfig({
       name: "main",
       remotes: {
         header: "header@http://localhost:3001/mf-manifest.json",
+        footer: "footer@http://localhost:3002/mf-manifest.json",
       },
       exposes: {},
       shared: ["react", "react-dom"],

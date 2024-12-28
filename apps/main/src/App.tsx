@@ -1,6 +1,8 @@
 import { FallbackHeader } from "./FallbackHeader";
-import { Suspense } from "react";
+import { lazy, Suspense } from "react";
 import Header from "header/header";
+
+const Footer = lazy(() => import("./footer"));
 
 const App = () => {
   return (
@@ -9,6 +11,10 @@ const App = () => {
         <Header />
       </Suspense>
       <h1>Main App</h1>
+
+      <Suspense fallback={<div>Loading Footer...</div>}>
+        <Footer />
+      </Suspense>
     </div>
   );
 };

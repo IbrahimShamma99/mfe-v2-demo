@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "header": "pnpm --filter ./apps/header",
-    "main": "pnpm --filter ./apps/main"
+    "main": "pnpm --filter ./apps/main",
+    "footer": "pnpm --filter ./apps/footer"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@module-federation/enhanced": "^0.8.6"
   },
   "devDependencies": {
-    "@module-federation/rsbuild-plugin": "^0.8.6"
+    "@module-federation/rsbuild-plugin": "^0.8.6",
+    "@types/node": "^22.10.2"
   }
 }
