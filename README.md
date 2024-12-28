@@ -2,6 +2,17 @@
 
 ## Introduction
 
+This project is still in creation, its purpose is to demonstrate the true powers of rspack.
+
+## Installation
+
+```bash
+pnpm install
+pnpm header dev
+pnpm main dev
+
+```
+
 ## TODO
 
 - [x] Setup pnpm
